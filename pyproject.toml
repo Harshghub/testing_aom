@@ -1,0 +1,107 @@
+[project]
+name = "testing-aom"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Harsh Vardhan Upadhyay",email = "hupadhyay@phys.ethz.ch"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "testing_aom", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1"
+scipy = "^1.14"
+matplotlib ="^3.9"
+pandas="^2.2"
+wavefront-sdk-python="^2.1"
+dwfpy="^1.2.0"
+pillow="^12.0.0"
+ipynb = "^0.5.1"
+ipympl = "^0.9.8"
+ipykernel = "^7.1.0"
+pyvisa = "^1.14"
+pyvisa-py = "^0.5"
+pyserial = "^3.5"
+colorednoise = "^2.2.0"
+
+
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.1.1"
+pyright = "^1.1.323"
+ruff = "^0.1.5"
+ipykernel = "^7.1.0"
+
+
+[tool.pyright]
+include = ["src/{{cookiecutter.project_slug}}", "tests"]
+typeCheckingMode = "basic"
+
+
+[tool.ruff]
+target-version = "py310" # Always generate Python 3.10-compatible code
+extend-exclude = [
+  "docs", "tests"
+]
+
+[tool.ruff.lint]
+select = [
+    "ASYNC", # flake8-async
+    "C4",    # flake8-comprehensions
+    "C901",  # mccabe complex-structure
+    "E",     # pycodestyle errors
+    "ERA",   # eradicate
+    "F",     # pyflakes
+    "FLY",   # flynt
+    "G",     # flake8-logging-format
+    "I",     # isort
+    "ICN",   # flake8-import-conventions
+    "INP",   # flake8-no-pep420
+    "ISC",   # flake8-implicit-str-concat
+    "N",     # pep8-naming
+    "NPY",   # NumPy-specific rules
+    "PERF",  # perflint
+    "PIE",   # flake8-pie
+    "PL",    # pylint
+    "PYI",   # flake8-pyi
+    "Q",     # flake8-quotes
+    "RET",   # flake8-return
+    "RUF",   # Ruff-specific rules
+    "SIM",   # flake8-simplify
+    "TID",   # flake8-tidy-imports
+    "TCH",   # flake8-type-checking
+    "UP",    # pyupgrade
+    "YTT",   # flake8-2020
+    "W",     # pycodestyle warnings
+]
+ignore = [
+    "PERF203",  # try-except-in-loop
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 7
+
+
+[tool.mypy]
+disallow_untyped_defs = true
+disallow_untyped_calls = true
+disallow_incomplete_defs = true
+disallow_any_generics = true
+check_untyped_defs = true
+ignore_missing_imports = false
+
+
