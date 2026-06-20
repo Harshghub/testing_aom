@@ -1,0 +1,118 @@
+{
+  "2026-05-14 15:19:34": {
+    "start_time": "2026-05-14 15:19:34",
+    "end_time": "2026-05-14 15:19:34",
+    "measurement_type": "single_measurement_laser",
+    "description": "dark voltage offset",
+    "Success": true
+  },
+  "2026-05-14 15:25:13": {
+    "start_time": "2026-05-14 15:25:13",
+    "end_time": "2026-05-14 15:25:14",
+    "measurement_type": "single_measurement_laser",
+    "description": "laser measurement",
+    "Success": true
+  },
+  "2026-05-14 15:25:19": {
+    "start_time": "2026-05-14 15:25:19",
+    "end_time": "2026-05-14 15:25:20",
+    "measurement_type": "single_measurement_laser",
+    "description": "laser measurement",
+    "Success": true
+  },
+  "2026-05-14 15:25:23": {
+    "start_time": "2026-05-14 15:25:23",
+    "end_time": "2026-05-14 15:25:23",
+    "measurement_type": "single_measurement_laser",
+    "description": "laser measurement",
+    "Success": true
+  },
+  "2026-05-14 15:25:25": {
+    "start_time": "2026-05-14 15:25:25",
+    "end_time": "2026-05-14 15:25:25",
+    "measurement_type": "single_measurement_laser",
+    "description": "laser measurement",
+    "Success": true
+  },
+  "2026-05-18 14:25:17": {
+    "start_time": "2026-05-18 14:25:17",
+    "end_time": "2026-05-18 14:25:20",
+    "measurement_type": "single_measurement_laser",
+    "description": "AOM measurement",
+    "Success": true
+  },
+  "2026-05-18 14:25:28": {
+    "start_time": "2026-05-18 14:25:28",
+    "end_time": "2026-05-18 14:25:31",
+    "measurement_type": "single_measurement_laser",
+    "description": "AOM measurement",
+    "Success": true
+  },
+  "2026-05-18 14:25:34": {
+    "start_time": "2026-05-18 14:25:34",
+    "end_time": "2026-05-18 14:25:36",
+    "measurement_type": "single_measurement_laser",
+    "description": "AOM measurement",
+    "Success": true
+  },
+  "2026-05-18 14:26:47": {
+    "start_time": "2026-05-18 14:26:47",
+    "end_time": "2026-05-18 14:36:49",
+    "measurement_type": "single_measurement_laser",
+    "description": "AOM measurement",
+    "Success": true
+  },
+  "2026-05-18 14:56:35": {
+    "start_time": "2026-05-18 14:56:35",
+    "measurement_type": "single_measurement_laser",
+    "description": "laser measurement",
+    "Success": false
+  },
+  "2026-05-18 14:58:13": {
+    "start_time": "2026-05-18 14:58:13",
+    "end_time": "2026-05-18 14:58:35",
+    "measurement_type": "single_measurement_laser",
+    "description": "laser measurement",
+    "Success": true
+  },
+  "2026-05-18 14:59:16": {
+    "start_time": "2026-05-18 14:59:16",
+    "end_time": "2026-05-18 15:00:17",
+    "measurement_type": "single_measurement_laser",
+    "description": "laser measurement",
+    "Success": true
+  },
+  "2026-05-18 15:02:15": {
+    "start_time": "2026-05-18 15:02:15",
+    "measurement_type": "single_measurement_laser",
+    "description": "laser measurement",
+    "Success": false
+  },
+  "2026-05-18 15:11:34": {
+    "start_time": "2026-05-18 15:11:34",
+    "end_time": "2026-05-18 15:12:08",
+    "measurement_type": "single_measurement_laser",
+    "description": "laser measurement",
+    "Success": true
+  },
+  "2026-05-18 15:12:51": {
+    "start_time": "2026-05-18 15:12:51",
+    "measurement_type": "single_measurement_laser",
+    "description": "laser measurement",
+    "Success": false
+  },
+  "2026-05-18 15:15:02": {
+    "start_time": "2026-05-18 15:15:02",
+    "end_time": "2026-05-18 15:25:03",
+    "measurement_type": "single_measurement_laser",
+    "description": "laser measurement",
+    "Success": true
+  },
+  "2026-05-18 16:29:46": {
+    "start_time": "2026-05-18 16:29:46",
+    "end_time": "2026-05-18 16:29:47",
+    "measurement_type": "single_measurement_laser",
+    "description": "AOM fast measurement",
+    "Success": true
+  }
+}

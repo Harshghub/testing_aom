@@ -55,11 +55,13 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run measurements until the specified end datetime.")
     parser.add_argument(
         "--f_sample",
+        type = float,
         required=True,
         help='Sample rate in Hz.',
     )
     parser.add_argument(
         "--measurement_duration",
+        type = float,
         required=True,
         help='Measurement duration in seconds.',
     )
